@@ -1,0 +1,12 @@
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 17
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 18
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[10-Oct-2020 14:34:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/res/important/blogViewer.php on line 7
+[10-Oct-2020 14:34:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/blog/index.php on line 10
+[10-Oct-2020 14:34:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/blog/index.php on line 112
+[10-Oct-2020 15:56:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/res/important/blogViewer.php on line 7
+[10-Oct-2020 15:56:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/blog/index.php on line 10
+[10-Oct-2020 15:56:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/blog/index.php on line 120
+[11-Oct-2020 17:35:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/res/important/blogViewer.php on line 7
+[11-Oct-2020 17:35:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/blog/index.php on line 10
+[11-Oct-2020 17:35:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/blog/index.php on line 115

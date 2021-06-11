@@ -1,0 +1,545 @@
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    * {
+        padding: none;
+        margin: none;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: #E7E7E7;
+    }
+    
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .l-section-1-div {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(2, 8, 1, 1) 0%, rgba(0, 0, 0, 1) 16%);
+    }
+    
+    .l-header-tag {
+        position: absolute;
+        padding: 1.5vw;
+        height: 6vw;
+        background: rgb(255, 255, 255);
+        left: 3vw;
+        z-index: 1;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    
+    .l-header-image {
+        width: max-content;
+    }
+    
+    .l-section-1-div {
+        font-family: 'Archivo', sans-serif;
+        padding: 5vw;
+        padding-top: 9vw;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    .l-section-1-divs-1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .l-section-1-divs-2 {
+        padding: 3vw;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+    }
+    
+    .l-section-1-divs-3 {
+        padding: 3vw;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: 1vw;
+    }
+    
+    .l-section-1-divs-4 {
+        padding: 3vw;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-top: .3vw;
+    }
+    
+    .l-text-type-1 {
+        font-weight: 600;
+        font-size: 2vw;
+        color: rgb(0, 0, 0);
+        letter-spacing: 2px;
+    }
+    
+    .l-text-type-2 {
+        font-weight: 100;
+        font-size: 17px;
+        color: rgb(167, 167, 167);
+        letter-spacing: 2px;
+    }
+    
+    .l-text-type-3 {
+        font-weight: 600;
+        font-size: 3vw;
+        color: rgb(255, 255, 255);
+        letter-spacing: 2px;
+    }
+    
+    .network-item-1 {
+        position: absolute;
+        width: 7vw;
+        height: 7vw;
+        top: 11vw;
+        left: 8vw;
+        border-radius: 50%;
+        background: white;
+        transition: top .1s, left .1s, height .1s, width .1s, border .1s;
+    }
+    
+    .network-item-1:hover {
+        width: 9vw;
+        height: 9vw;
+        top: 10vw;
+        left: 7vw;
+        border: solid rgb(149, 149, 149) 5px;
+        cursor: pointer;
+    }
+    
+    .network-item-2 {
+        position: absolute;
+        width: 7vw;
+        height: 7vw;
+        top: 31vw;
+        left: 20vw;
+        border-radius: 50%;
+        background: white;
+        transition: top .1s, left .1s, height .1s, width .1s, border .1s;
+    }
+    
+    .network-item-2:hover {
+        width: 9vw;
+        height: 9vw;
+        top: 30vw;
+        left: 19vw;
+        border: solid rgb(149, 149, 149) 5px;
+        cursor: pointer;
+    }
+    
+    .network-item-3 {
+        position: absolute;
+        width: 7vw;
+        height: 7vw;
+        top: 10vw;
+        left: 50vw;
+        border-radius: 50%;
+        background: white;
+        transition: top .1s, left .1s, height .1s, width .1s, border .1s;
+    }
+    
+    .network-item-3:hover {
+        width: 9vw;
+        height: 9vw;
+        top: 9vw;
+        left: 49vw;
+        border: solid rgb(149, 149, 149) 5px;
+        cursor: pointer;
+    }
+    
+    .network-item-4 {
+        position: absolute;
+        width: 7vw;
+        height: 7vw;
+        top: 33vw;
+        left: 45vw;
+        border-radius: 50%;
+        background: white;
+        transition: top .1s, left .1s, height .1s, width .1s, border .1s;
+    }
+    
+    .network-item-4:hover {
+        width: 9vw;
+        height: 9vw;
+        top: 32vw;
+        left: 44vw;
+        border: solid rgb(149, 149, 149) 5px;
+        cursor: pointer;
+    }
+    
+    .network-item-5 {
+        position: absolute;
+        width: 7vw;
+        height: 7vw;
+        top: 5vw;
+        left: 32vw;
+        border-radius: 50%;
+        background: white;
+        transition: top .1s, left .1s, height .1s, width .1s, border .1s;
+    }
+    
+    .network-item-5:hover {
+        width: 9vw;
+        height: 9vw;
+        top: 4vw;
+        left: 31vw;
+        border: solid rgb(149, 149, 149) 5px;
+        cursor: pointer;
+    }
+    
+    .l-network-line-1 {
+        position: absolute;
+        width: 23vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(165deg);
+        top: 12vw;
+        left: 10vw;
+    }
+    
+    .l-network-line-2 {
+        position: absolute;
+        width: 23vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(60deg);
+        top: 24.4vw;
+        left: 7vw;
+    }
+    
+    .l-network-line-3 {
+        position: absolute;
+        width: 44vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(30deg);
+        top: 25.5vw;
+        left: 9.9vw;
+    }
+    
+    .l-network-line-4 {
+        position: absolute;
+        width: 44vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(178deg);
+        top: 14vw;
+        left: 10vw;
+    }
+    
+    .l-network-line-5 {
+        position: absolute;
+        width: 28vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(115deg);
+        top: 24vw;
+        left: 14vw;
+    }
+    
+    .l-network-line-6 {
+        position: absolute;
+        width: 33vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(145deg);
+        top: 24vw;
+        left: 22vw;
+    }
+    
+    .l-network-line-7 {
+        position: absolute;
+        width: 28vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(185deg);
+        top: 36vw;
+        left: 22vw;
+    }
+    
+    .l-network-line-8 {
+        position: absolute;
+        width: 30vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(65deg);
+        top: 23vw;
+        left: 28vw;
+    }
+    
+    .l-network-line-9 {
+        position: absolute;
+        width: 15vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(195deg);
+        top: 10vw;
+        left: 38vw;
+    }
+    
+    .l-network-line-10 {
+        position: absolute;
+        width: 22vw;
+        height: 2px;
+        background: rgb(202, 202, 202);
+        transform: rotate(105deg);
+        top: 23vw;
+        left: 41vw;
+    }
+    
+    .l-network-image {
+        border-radius: 50%;
+    }
+    
+    .l-slider-image-1 {
+        width: 25vw;
+        height: 25vw;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: auto;
+        transition: width .5s, height .5s;
+        border: solid rgb(52, 52, 251) 7px;
+    }
+    
+    .l-slider-image-1:hover {
+        width: 28vw;
+        height: 28vw;
+        cursor: pointer;
+    }
+    
+    .l-slider-image-2 {
+        width: 25vw;
+        height: 25vw;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: width .5s, height .5s;
+        border: solid orangered 7px;
+    }
+    
+    .l-slider-image-2:hover {
+        width: 28vw;
+        height: 28vw;
+        cursor: pointer;
+    }
+    
+    .l-slider-image-div {
+        width: 25vw;
+        height: 25vw;
+        margin: auto;
+        margin-top: 45px;
+        transition: width .5s, height .5s;
+    }
+    
+    .l-slider-image-div:hover {
+        width: 28vw;
+        height: 28vw;
+    }
+    
+    .l-section-2-container {
+        padding: 50px;
+    }
+    
+    .image-slide-link-1 {
+        width: 2px;
+        height: 50vw;
+        background: rgb(98, 134, 0);
+        position: absolute;
+        left: 45vw;
+        top: 50vw;
+        transform: rotate(130deg);
+    }
+    
+    .image-slide-link-2 {
+        width: 2px;
+        height: 40vw;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        left: 50vw;
+        top: 115vw;
+        transform: rotate(140deg);
+    }
+    
+    .image-slide-link-3 {
+        width: 2px;
+        height: 40vw;
+        background: rgb(119, 59, 3);
+        position: absolute;
+        left: 50vw;
+        top: 175vw;
+        transform: rotate(140deg);
+    }
+    
+    .image-slide-link-4 {
+        width: 2px;
+        height: 40vw;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        left: 50vw;
+        top: 80vw;
+        transform: rotate(40deg);
+    }
+    
+    .image-slide-link-5 {
+        width: 2px;
+        height: 40vw;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        left: 50vw;
+        top: 140vw;
+        transform: rotate(40deg);
+    }
+    
+    .image-slide-link-6 {
+        width: 2px;
+        height: 40vw;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        left: 50vw;
+        top: 205vw;
+        transform: rotate(40deg);
+    }
+    
+    .l-col-4 {
+        padding-top: 7.5vw;
+    }
+    
+    .l-text-type-4 {
+        color: #E03566;
+        font-size: 3vw;
+        font-weight: 600;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: 3px;
+    }
+    
+    .l-btn-scroll {
+        padding: 2vw;
+    }
+    
+    .l-scroll-element-1,
+    .l-scroll-element-2,
+    .l-scroll-element-3,
+    .l-scroll-element-4,
+    .l-scroll-element-5,
+    .l-scroll-element-6,
+    .l-scroll-element-7 {
+        opacity: 0;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        transition: all 1s;
+    }
+    
+    .l-scroll-element-link-1,
+    .l-scroll-element-link-2,
+    .l-scroll-element-link-3,
+    .l-scroll-element-link-4,
+    .l-scroll-element-link-5,
+    .l-scroll-element-link-6,
+    .l-scroll-element-link-7 {
+        opacity: 0;
+        transition: all 3s;
+    }
+    
+    .animated {
+        opacity: 1;
+    }
+    
+    .l-scroll-element-2 {}
+    
+    @media only screen and (max-width: 767px) {
+        .l-scroll-element-link-1,
+        .l-scroll-element-link-2,
+        .l-scroll-element-link-3,
+        .l-scroll-element-link-4,
+        .l-scroll-element-link-5,
+        .l-scroll-element-link-6,
+        .l-scroll-element-link-7 {
+            display: none;
+        }
+        .l-scroll-element-2 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .l-scroll-element-4 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .l-scroll-element-6 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .l-header-tag {
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            font: 1.2em;
+            height: 8vw;
+        }
+        .network-item-1,
+        .network-item-2,
+        .network-item-3,
+        .network-item-4,
+        .network-item-5 {
+            width: 14vw;
+            height: 14vw;
+            top: 38vw;
+        }
+        .network-item-1:hover,
+        .network-item-2:hover,
+        .network-item-3:hover,
+        .network-item-4:hover,
+        .network-item-5:hover {
+            width: 14vw;
+            height: 14vw;
+            top: 38vw;
+        }
+        .network-item-2,
+        .network-item-2:hover {
+            left: 24vw;
+        }
+        .network-item-3,
+        .network-item-3:hover {
+            left: 40vw;
+        }
+        .network-item-4,
+        .network-item-4:hover {
+            left: 57vw;
+        }
+        .network-item-5,
+        .network-item-5:hover {
+            left: 73vw;
+        }
+        .l-network-line-1,
+        .l-network-line-2,
+        .l-network-line-3,
+        .l-network-line-4,
+        .l-network-line-5,
+        .l-network-line-6,
+        .l-network-line-7,
+        .l-network-line-8,
+        .l-network-line-9,
+        .l-network-line-10 {
+            display: none;
+        }
+        .l-text-type-1 {
+            font-size: 3vw;
+            margin: 5px;
+        }
+        .l-text-type-3 {
+            font-size: 6vw;
+        }
+    }
+    
+    #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }

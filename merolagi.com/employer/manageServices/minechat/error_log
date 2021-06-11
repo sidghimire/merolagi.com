@@ -1,0 +1,6 @@
+[19-Sep-2020 05:04:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/employer/manageServices/minechat/index.php on line 132
+[22-Sep-2020 04:44:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/employer/manageServices/minechat/index.php on line 132
+[27-Sep-2020 11:17:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/employer/manageServices/minechat/index.php on line 129
+[27-Sep-2020 11:30:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/employer/manageServices/minechat/index.php on line 129
+[29-Sep-2020 04:59:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/employer/manageServices/minechat/index.php on line 129
+[29-Sep-2020 12:05:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/employer/manageServices/minechat/index.php on line 129

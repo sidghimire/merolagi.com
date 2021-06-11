@@ -1,0 +1,81 @@
+.l-main-container-header {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 95%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.l-main-continer-header-text {
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.l-active-header {
+    color: tomato;
+}
+
+.l-crimson-title {
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 600;
+    border-bottom: solid crimson 3px;
+    height: fit-content;
+}
+
+.l-main-container-section {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 95%;
+}
+
+.l-main-container-section {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.form-control-unit {
+    padding: 20px;
+}
+
+.l-form-control-text-1 {
+    width: 80%;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.l-email-verified {
+    border: solid green 3px;
+}
+
+.l-save-btn {
+    margin: auto;
+    width: 70%;
+}
+
+.l-profile-body-margin {
+    border-top: solid rgb(192, 192, 192) 1px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.l-file-error {
+    color: rgb(172, 5, 5);
+}
+
+#map {
+    display: block;
+    height: 300px;
+}
+
+.l-modal-row {
+    margin: 20px;
+}

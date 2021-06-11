@@ -1,0 +1,87 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+header {
+    -webkit-box-shadow: 0px 3px 19px -1px rgba(212, 212, 212, 1);
+    box-shadow: 0px 3px 19px -1px rgba(212, 212, 212, 1);
+}
+
+.l-header-3,
+.l-header-4 {
+    display: none;
+}
+
+.l-btn-to-disappear-backend {
+    display: none !important;
+}
+
+body {
+    background: rgb(226, 226, 226);
+}
+
+.l-main-container {
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.l-card-1 {
+    width: 97%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-card-view {
+    font-size: 20px;
+    padding: 10px;
+    background: #ED7117;
+    color: white;
+}
+
+.l-card-visitor {
+    font-size: 20px;
+    padding: 10px;
+    background: #7952B3;
+    color: white;
+}
+
+.l-card-revenue {
+    font-size: 20px;
+    padding: 10px;
+    background: #30AD23;
+    color: white;
+}
+
+.l-card-rpm {
+    font-size: 20px;
+    padding: 10px;
+    background: #655965;
+    color: white;
+}
+
+.l-card-body {
+    color: grey;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.l-revenue-warning {
+    font-weight: 300;
+    color: red;
+    font-size: 12px;
+}
+
+.l-blog-title {
+    color: rgb(182, 182, 182);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.l-blog-date {
+    font-size: 14px;
+}

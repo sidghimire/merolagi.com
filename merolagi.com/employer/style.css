@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.l-background {
+    max-width: 31vw;
+}
+
+.l-background-div {
+    border: solid rgb(209, 209, 209) 1px;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.l-container-1 {
+    padding: 35px;
+}
+
+.l-signup-div {
+    border: solid rgb(200, 200, 200) 1px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.l-sign-text {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    letter-spacing: 1px;
+    border-bottom: solid crimson 3px;
+    font-family: 'Russo One', sans-serif;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.form-control {
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.l-form-div {
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.l-btn-sign {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.l-small-text {
+    font-size: 9px;
+    color: blue;
+    position: relative;
+}
+
+.l-btn-already {
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: -50px;
+}
+
+@media screen and (max-width:1000px) {
+    .l-background {
+        max-width: 45vw;
+    }
+    .l-btn-already {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .l-res-remove {
+        display: none;
+    }
+}

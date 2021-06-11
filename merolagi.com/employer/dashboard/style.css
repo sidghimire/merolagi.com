@@ -1,0 +1,160 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+header {
+    -webkit-box-shadow: 0px 3px 19px -1px rgba(212, 212, 212, 1);
+    box-shadow: 0px 3px 19px -1px rgba(212, 212, 212, 1);
+}
+
+.l-header-3,
+.l-header-4 {
+    display: none;
+}
+
+.l-btn-to-disappear-backend {
+    display: none !important;
+}
+body{
+    background-color:#f7f7f7;
+}
+.l-container-padding{
+    padding-left:50px;
+    padding-right:50px;
+}
+.l-container-title {
+    padding: 5px;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.l-container-title-text {
+    padding-bottom: 5px;
+    border-bottom: solid crimson 1px;
+}
+
+.l-main-container-section {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 1vw;
+    width: 100%;
+    border: solid rgb(206, 206, 206) 1px;
+    background:white;
+}
+
+.l-form-control {
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-field-e-1 {
+    width: 20%;
+    margin-right: 0;
+}
+
+.l-field-e-3 {
+    width: 40%;
+    margin-left: 0;
+}
+
+.l-field-e-2 {
+    width: 40%;
+    margin-left: 0;
+}
+
+.l-product-detail-container {
+    padding: 10px;
+    width: 100%;
+}
+
+.l-crimson-title {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    font-weight: 600;
+    border-bottom: solid crimson 3px;
+}
+
+.l-crimson-title-e {
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 600;
+    border-bottom: solid grey 2px;
+    margin-bottom: 30px;
+}
+
+.l-form-control-e {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#productDescription {
+    margin: auto;
+    padding-top: 50px;
+}
+
+.uploadMedia {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.l-sell-btn {
+    font-size: 1.2vw;
+    width: 100%;
+    margin: auto;
+}
+
+#map {
+    display: block;
+    height: 400px;
+}
+
+.l-grey-label {
+    font-size: 14px;
+    color: grey;
+    padding: 10px;
+    padding-top: 20px;
+    margin-left: 10px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.l-file-error {
+    color: rgb(172, 5, 5);
+}
+
+a:hover {
+    color: white;
+}
+
+#imageDiv {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.l-btn-submit {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:767px) {
+    .l-sell-btn {
+        font-size: 2.5vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    .l-container-padding{
+    padding-left:10px;
+    padding-right:10px;
+}
+}

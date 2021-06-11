@@ -1,0 +1,1 @@
+[19-Sep-2020 05:04:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ccsnea2i/merolagi.com/employer/manageServices/minechat/index.php on line 132

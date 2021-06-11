@@ -1,0 +1,34 @@
+.l-sidebar-div {
+    background: #332A7C;
+    border-radius: 25px;
+}
+
+.l-text-type-1 {
+    font-weight: 600;
+    font-size: 3vw;
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-bottom: 2vw;
+}
+
+.l-sidebar-section-2 {
+    color: white;
+    margin-top: 1vw;
+    width: 80%;
+    padding: 15px;
+    margin-left: 20%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    transition: all .5s;
+}
+
+.l-sidebar-section-2:hover {
+    background-color: white;
+    color: #332A7C;
+    cursor: pointer;
+}
+
+.l-btn-active {
+    background-color: white;
+    color: #332A7C;
+}

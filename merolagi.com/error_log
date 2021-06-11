@@ -1,0 +1,5 @@
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 18
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[07-Oct-2020 04:48:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[12-Oct-2020 06:42:15 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 15

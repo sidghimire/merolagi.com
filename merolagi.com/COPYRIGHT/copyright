@@ -1,0 +1,11 @@
+Files: assets/css
+License: Apache 2.0 (please see usr/local/cpanel/3rdparty/share/common-licenses/Apache-2.0)
+Source: https://github.com/google/material-design-icons
+
+Files: assets/fonts
+License: Apache 2.0 (please see usr/local/cpanel/3rdparty/share/common-licenses/Apache-2.0)
+Source: https://github.com/google/material-design-icons
+
+Files: assets/images/tech/*
+License: Creative Commons Zero (please see /usr/local/cpanel/3rdparty/share/countdown_tech/assets/images/tech/LICENSE)
+Source: https://unsplash.com

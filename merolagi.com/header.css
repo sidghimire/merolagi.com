@@ -1,0 +1,330 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+header {
+    background: white;
+}
+
+.l-sidebar-title {
+    font-size: 25px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.l-sidebar-btn {
+    width: 80%;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.l-header-1{
+    padding-top:5px;
+}
+.l-toggle-btn {
+    font-size: 25px;
+    margin: 3px;
+    margin-top: 10px;
+}
+
+.l-header-1-item {
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    color: grey;
+    font-weight: 500;
+    border-right: solid rgb(168, 168, 168) 2px;
+}
+
+.l-header-1-item:hover {
+    color: rgb(53, 53, 53);
+}
+
+.l-header-1-item-e {
+    border-right: none;
+}
+
+.l-header-2-item-1 {
+    color: black;
+}
+
+.l-header-2-item-1:hover {
+    color: black;
+}
+
+.l-header-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.l-header-2-item {
+    padding: 7px;
+}
+
+.l-header-2-item-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.l-header-2-item-2 {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+}
+
+.l-header-2-item-3 {
+    -webkit-box-flex: 1.5;
+        -ms-flex: 1.5;
+            flex: 1.5;
+}
+
+.l-fa-search {
+    height: 100%;
+    background-color: #E9F6F7;
+    color: grey;
+    padding: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid rgb(206, 206, 206) 1px;
+    border-right: none;
+    font-size: 17px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.l-search-field {
+    height: 100%;
+    background-color: #E9F6F7;
+    color: white;
+    font-size: 15px;
+    color: grey;
+    border: solid rgb(206, 206, 206) 1px;
+    border-left: none;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.l-search-field:hover {
+    background-color: #ffffff;
+}
+
+.l-search-field::-webkit-input-placeholder {
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+.l-search-field::-moz-placeholder {
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+.l-search-field:-ms-input-placeholder {
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+.l-search-field::-ms-input-placeholder {
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+.l-search-field::placeholder {
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+.l-search-btn {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 100%;
+    background: #FF5A00;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.l-search-btn:hover {
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+}
+
+.l-search-btn:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+}
+
+.l-header-2-item-child {
+    margin-left: 2vw;
+    padding-top: 5px;
+}
+
+.l-header-2-item-child {
+    color: rgb(143, 143, 255);
+}
+
+.l-fa-header-2-icon {
+    margin-left: 1vw;
+}
+
+.l-header-2-text {
+    color: rgb(93, 93, 93);
+    margin-left: 1vw;
+    font-weight: 500;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.l-header-3 {
+    background: #24A3B5;
+    height: 30px;
+}
+
+.l-header-3-text {
+    cursor: pointer;
+    font-size: 13px;
+    padding: 15px;
+    height: 100%;
+    color: white;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.l-header-3-text:hover {
+    text-decoration: none;
+    color: #24A3B5;
+    background: white;
+}
+
+.l-header-4 {
+    -webkit-box-shadow: 0px 6px 8px -4px rgba(235, 235, 235, 1);
+    box-shadow: 0px 6px 8px -4px rgba(235, 235, 235, 1);
+    font-size: 11px;
+    font-weight: 500;
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.l-header-4-text {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #24A3B5;
+    cursor: pointer;
+}
+
+.l-header-4-text:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+#l-sidebar {
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    z-index: 9999;
+    -webkit-box-shadow: 200px 114px 300px 200px rgba(0, 0, 0, 0.75);
+    box-shadow: 200px 114px 300px 200px rgba(0, 0, 0, 0.75);
+}
+
+#l-sidebar.collapsing {
+    left: -75%;
+    -webkit-transition: height 0s ease-in-out;
+    -o-transition: height 0s ease-in-out;
+    transition: height 0s ease-in-out;
+}
+
+#l-sidebar.show {
+    left: 0;
+    -webkit-transition: left 300ms ease-in-out;
+    -o-transition: left 300ms ease-in-out;
+    transition: left 300ms ease-in-out;
+}
+
+#l-sidebar.collapsed~.navbar-collapse {
+    -webkit-transition: left 500ms ease-in-out;
+    -o-transition: left 500ms ease-in-out;
+    transition: left 500ms ease-in-out;
+}
+
+
+/*
+Sign In Modal
+*/
+
+.l-login-form-control {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-body {
+    padding: 15px;
+}
+
+.l-signin-active {
+    border-bottom: solid crimson 2px;
+}
+
+.l-signin-header-btn {
+    cursor: pointer;
+    -webkit-transition: all .1s;
+    -o-transition: all .1s;
+    transition: all .1s;
+}
+
+.l-signin-header-btn:hover {
+    color: Blue;
+    border-bottom: solid grey 2px;
+}
+
+.l-forgot-password-active {
+    border-bottom: solid blueviolet 2px;
+}
+
+
+/*
+Sign In Modal
+*/
+
+/*
+Footer BOx
+*/
+.l-footer-tab{
+    padding:10px;
+}
+
+@media screen and (max-width: 767px) {
+    .l-toggle-btn {
+        display: block;
+    }
+    #l-sidebar {
+        width: 70%;
+    }
+    .l-header-2-item-3,
+    .l-header-3,
+    .l-header-4,
+    .l-res-1000-remove {
+        display: none;
+    }
+}

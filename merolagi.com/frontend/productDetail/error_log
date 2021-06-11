@@ -1,0 +1,27 @@
+[22-Sep-2020 05:16:29 UTC] PHP Parse error:  syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 53
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 18
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 18
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 18
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User ccsnea2i_merocom already has more than 'max_user_connections' active connections in /home/ccsnea2i/merolagi.com/res/global/index.php on line 19
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 187
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 187
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 188
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 188
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 191
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 187
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 192
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 191
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 188
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 195
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 192
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 196
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 191
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 195
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 192
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 196
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 195
+[05-Oct-2020 13:06:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ccsnea2i/merolagi.com/frontend/productDetail/index.php on line 196

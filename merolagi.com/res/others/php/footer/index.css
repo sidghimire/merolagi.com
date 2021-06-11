@@ -1,0 +1,101 @@
+.l-footer-div {
+    background-image: url(/res/images/silohoutte/hill.png);
+    height: 26.9vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: -5px;
+}
+
+.l-footer-image-1 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    border: solid black 2px;
+    top: 7vw;
+    left: 4vw;
+    transition: border .15s;
+}
+
+.l-footer-image-1:hover,
+.l-footer-image-2:hover,
+.l-footer-image-3:hover,
+.l-footer-image-4:hover,
+.l-footer-image-5:hover {
+    border: solid green 3px;
+}
+
+.l-footer-image-2 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    border: solid black 2px;
+    top: 12vw;
+    left: 16vw;
+    transition: border .15s;
+}
+
+.l-footer-image-3 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    border: solid black 2px;
+    top: 13vw;
+    left: 36vw;
+    transition: border .15s;
+}
+
+.l-footer-image-4 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    border: solid black 2px;
+    top: 5vw;
+    left: 50vw;
+    transition: border .15s;
+}
+
+.l-footer-image-5 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    border: solid black 2px;
+    top: 6vw;
+    left: 67vw;
+    transition: border .15s;
+}
+
+.bg-dark {
+    color: white;
+}
+
+.l-copyright-section {
+    height: 30px;
+}
+
+@media only screen and (max-width: 867px) {
+    .l-footer-image-1,
+    .l-footer-image-2,
+    .l-footer-image-3,
+    .l-footer-image-4,
+    .l-footer-image-5 {
+        width: 9vw;
+        height: 9vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .l-footer-image-1,
+    .l-footer-image-2,
+    .l-footer-image-3,
+    .l-footer-image-4,
+    .l-footer-image-5 {
+        width: 9vw;
+        height: 9vw;
+    }
+}

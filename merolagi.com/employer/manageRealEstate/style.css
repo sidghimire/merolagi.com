@@ -1,0 +1,90 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.l-main-container-header {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 95%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.l-main-continer-header-text {
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.l-main-continer-header-text:hover {
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.l-active-header {
+    color: tomato;
+}
+
+.l-crimson-title {
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 600;
+    border-bottom: solid crimson 3px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.l-main-container-section {
+  
+      margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 2vw;
+    padding-left: 4vw;
+    width: 95%;
+    border: solid rgb(206, 206, 206) 1px;
+}
+
+.l-header-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.l-main-container-section {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.l-thead {
+    font-weight: 400;
+}
+
+.l-post-title {
+    font-weight: 400;
+}
+
+.l-post-scroll {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.l-container-title {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.l-container-title-text {
+    padding-bottom: 5px;
+    border-bottom: solid crimson 1px;
+}

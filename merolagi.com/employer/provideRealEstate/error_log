@@ -1,0 +1,2 @@
+[15-Sep-2020 14:43:52 UTC] PHP Warning:  imagejpeg(/home/ccsnea2i/merolagi.comres/database/productImages/8e9d4c22aaa0f0fde75c6e5667e43e7b5f60d327f36fc.jpg): failed to open stream: No such file or directory in /home/ccsnea2i/merolagi.com/employer/dashboard/action.php on line 78
+[20-Sep-2020 15:58:45 UTC] PHP Warning:  imagejpeg(/home/ccsnea2i/merolagi.comres/database/estateImages/f026de806ad0db426392c2c90c2351165f677c35d9834.png): failed to open stream: No such file or directory in /home/ccsnea2i/merolagi.com/employer/provideRealEstate/action.php on line 83

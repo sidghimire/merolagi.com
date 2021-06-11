@@ -1,0 +1,19 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^merolagi\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.merolagi\.com$
+RewriteRule ^/?$ "https\:\/\/merolagi\.com\/" [R=301,L]
+RewriteRule ^servicedetail/([^/.]+)?$ frontend/serviceDetail/index.php?productId=$1 [L]
+RewriteRule ^servicedetail/([^/.]+)/([^/.]+)?$ frontend/serviceDetail/index.php?productId=$1&&response=$2 [L]
+RewriteRule ^productdetail/([^/.]+)?$ frontend/productDetail/index.php?productId=$1 [L]
+RewriteRule ^productdetail/([^/.]+)/([^/.]+)?$ frontend/productDetail/index.php?productId=$1&&response=$2 [L]
+RewriteRule ^estatedetail/([^/.]+)?$ frontend/estateDetail/index.php?productId=$1 [L]
+RewriteRule ^estatedetail/([^/.]+)/([^/.]+)?$ frontend/estateDetail/index.php?productId=$1&&response=$2 [L]
+RewriteRule ^employer/blog/manageBlog/([^/.]+)?$ /employer/blog/manageBlog/index.php?blog=$1 [L]
+RewriteRule ^employer/blog/editBlog/([^/.]+)?$ /employer/blog/editBlog/index.php?blog=$1 [L]
+RewriteRule ^employer/blog/manageBlog/delete/([^/.]+)?$ /employer/blog/manageBlog/delete.php?blog=$1 [L]
+RewriteRule ^blog/([^/.]+)?$ /blog/index.php?blog=$1 [L]
+RewriteRule ^login([^/.]+)?$ index.php?login=$1 [L]
+

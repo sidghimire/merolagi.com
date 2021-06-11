@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+header {
+    -webkit-box-shadow: 0px 3px 19px -1px rgba(212, 212, 212, 1);
+    -moz-box-shadow: 0px 3px 19px -1px rgba(212, 212, 212, 1);
+    box-shadow: 0px 3px 19px -1px rgba(212, 212, 212, 1);
+}
+
+.l-header-3,
+.l-header-4 {
+    display: none;
+}
+
+.l-btn-to-disappear-backend {
+    display: none !important;
+}
+
+.l-title-row {
+    padding: 10px;
+}
+
+.l-fa-icon {
+    color: rgb(81, 179, 218);
+    transition: all .3s;
+}
+
+.l-fa-icon:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.l-title-text {
+    font-family: 'Crete Round', serif;
+    font-size: 25px;
+}
+
+.l-title-text-2 {
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid crimson 1px;
+    font-weight: 600px;
+}
+
+.l-title-text-4 {
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    border-bottom: solid crimson 1px;
+    font-weight: 600px;
+}
+
+.l-product-info-col {
+    border-right: solid rgb(214, 214, 214) 1px;
+    overflow-y: scroll;
+    height: 420px;
+    margin-bottom: 20px;
+}
+
+.l-main-container {
+    padding: 5px;
+    padding-top: 10px;
+    padding-top: 10px;
+    border: solid rgb(206, 206, 206) 1px;
+    border-radius: 10px;
+}
+
+.l-product-description-div {
+    padding-top: 30px;
+}
+
+.l-product-feature {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.l-product-label {
+    font-size: 14px;
+    font-weight: 200;
+    color: grey;
+}
+
+.l-feature-unit {
+    padding-bottom: 15px;
+    border-bottom: solid 1px rgb(241, 241, 241);
+}
+
+.l-view-post-btn {
+    width: 100%;
+    font-size: 13px;
+}
+
+.l-job-overview-section {
+    padding-top: 15px;
+}
+
+.l-responses-div {
+    padding: 10px;
+}
+
+td,
+th {
+    font-size: 13px;
+}
+
+.table-location {
+    width: 25%;
+}
+
+#map {
+    display: block;
+    height: 400px;
+}
+
+.l-transaction-title {
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    border-bottom: solid crimson 1px;
+    font-weight: 600px;
+}
+
+.l-transaction-label {
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    border-bottom: solid rgb(220, 173, 20) 1px;
+    font-weight: 600px;
+    color: rgb(80, 80, 80);
+}
+
+.l-transaction-form-control-unit {
+    width: 50%;
+    margin: 10px;
+}
+
+.l-completed-btn {
+    margin-top: 20px;
+}
+
+.l-comment-field {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
